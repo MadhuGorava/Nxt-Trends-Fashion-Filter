@@ -1,0 +1,90 @@
+.filters-group-container {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.search-input-container {
+  width: 80%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f5f9;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  border-width: 0px;
+}
+.input-element {
+  width: 90%;
+  background-color: transparent;
+  border-width: 0px;
+  border: none;
+  outline: none;
+  padding: 4px 8px 4px 8px;
+  font-size: 15px;
+}
+
+.search-image {
+  width: 20px;
+  height: 20px;
+}
+
+.list-items-container {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: black;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.name {
+  color: grey;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.rate-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rate-icon {
+  height: 25px;
+  width: 70px;
+}
+
+.title {
+  color: grey;
+  font-size: 10px;
+  font-weight: lighter;
+  font-family: 'Roboto';
+}
+.clear-btn {
+  background-color: transparent;
+  border: 2px solid lightseagreen;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  padding: 6px;
+}
